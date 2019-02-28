@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.voicerecognizer.FeedBack">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="298dp"
+        android:layout_height="35dp"
+        android:text="From:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/Mail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="66dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="380dp"
+        android:layout_height="235dp"
+        android:hint="type atleast 20 words"
+        android:ems="10"
+        android:inputType="textCapSentences|textLongMessage"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="106dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="341dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+</RelativeLayout>

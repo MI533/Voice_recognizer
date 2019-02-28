@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.voicerecognizer.HelpActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="375dp"
+        android:layout_height="214dp"
+        android:layout_marginLeft="8dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="15dp" />
+</android.support.constraint.ConstraintLayout>
