@@ -22,6 +22,6 @@ Button b;
                 startActivity(i);
 
             }
-        })
+        });
     }
 }
